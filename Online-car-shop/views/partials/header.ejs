@@ -1,0 +1,25 @@
+<header>
+  <nav class="app-nav">
+    <a href="/home/getCategories"
+      ><img src="/images/logo.png" class="app-logo" alt="logo"
+    /></a>
+
+    <div class="nav-active-category">
+      <div class="nav-active-category">
+        <% if (category) { %> <%= category.name %> <% } else if (!category &&
+        home) { %> Početna stranica <% } else if (!category && !home){ %>
+        Košarica <% } %>
+      </div>
+    </div>
+    <div class="nav-actions">
+      <a href="/cart/getAll/">
+        <img class="icon" src="/images/grocery-store.png" alt="cart" />
+        <span class="cart-item-count"> <%=total%> </span>
+      </a>
+
+      <a href="#">
+        <img class="icon" src="/images/search.png" alt="search" />
+      </a>
+    </div>
+  </nav>
+</header>

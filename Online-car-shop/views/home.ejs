@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <script src="/scripts/submit.js"></script>
+
+  </head>
+  <body>
+    <div id="app">
+      <%- include(`partials/header`); %>
+      <main>
+        <div class="app-toolbar">
+          <!-- Categories -->
+          <nav class="category-nav">
+            <% categories.forEach(category => { %>
+            <a href="/home/getProducts/<%= category.id%>" class="nav-link"
+              ><%= category.name %></a>
+            <% }); %>
+          </nav>
+        </div>
+
+        <div class="app-background">
+          <div class="background-photo">
+            <img src="/images/hero2.jpg" alt="pozadina" class="hero-photo" />
+            <h1 class="heading">Drive into luxury with our car collection</h1>
+          </div>
+        </div>
+
+        <div class="app-content">
+          <div class="data" id="podatci">
+            <% if (category) { %> <% category.products.forEach(product => { %>
+            <div class="item">
+              <img
+                class="unable-hover"
+                src="<%= product.image %>"
+                alt="<%= product.name %>"
+              />
+              <form
+                id="myForm-<%= product.id %>"
+                action="/cart/add/<%= product.id %>" 
+                method="post"
+              >
+                <input type="hidden" name="id" value="<%= product.id %>" />
+                <input type="hidden" name="name" value="<%= product.name %>" />
+                <input type="hidden" name="quantity" value="1" />
+
+                <a
+                  class="add-cart"
+                  href="javascript:void(0)"
+                  onclick="onProductClick('myForm-<%= product.id %>')"
+                  <span>
+                    <img
+                      src="/images/icons8-shopping-cart-64.png"
+                      alt="cart-icon"
+                    />
+                  </span>
+                </a>
+              </form>
+              <span class="items-count">
+                <%= cart[product.id]?.quantity ?? 0 %>
+              </span>
+              <h3 class="car-name"><%= product.name %></h3>
+            </div>
+            <% }); %> <% } else if (!category && home) { %> <%
+            categories.forEach(category => { %> <%
+            category.products.forEach(product => { %>
+            <div class="item">
+              <img
+                class="unable-hover"
+                src="<%= product.image %>"
+                alt="<%= product.name %>"
+              />
+              <form
+                id="myForm-<%= product.id %>"
+                action="/cart/add/<%= product.id %>"
+                method="post"
+              >
+                <input type="hidden" name="name" value="<%= product.name %>" />
+                <input type="hidden" name="quantity" value="1" />
+
+                <a
+                  class="add-cart"
+                  href="javascript:void(0)"
+                  onclick="onProductClick('myForm-<%= product.id %>')"
+                >
+                  <span>
+                    <img
+                      src="/images/icons8-shopping-cart-64.png"
+                      alt="cart-icon"
+                    />
+                  </span>
+                </a>
+              </form>
+              <span class="items-count">
+                <%= cart[product.id]?.quantity ?? 0 %>
+              </span>
+              <h3 class="car-name"><%= product.name %></h3>
+            </div>
+            <% }); %> <% }); %> <% } %>
+          </div>
+        </div>
+      </main>
+      <%- include(`partials/footer`); %>
+    </div>
+  </body>
+</html>bo

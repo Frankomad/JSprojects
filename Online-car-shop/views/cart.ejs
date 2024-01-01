@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/styles/cart.css" />
+    <script src="/scripts/submit.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <%- include(`partials/header`); %>
+      <main>
+        <div class="app-background">
+          <div class="background-photo">
+            <img src="/images/hero2.jpg" alt="pozadina" class="hero-photo" />
+            <h1 class="heading">Drive into luxury with our car collection</h1>
+          </div>
+        </div>
+        <div class="products-container">
+          <div class="product-header">
+            <h4 class="product-title">Naziv Proizvoda</h4>
+            <h4 class="prodact-amount">Količina</h4>
+          </div>
+          <div class="products">
+            <% if (cart) { %> <% Object.values(cart).forEach((c) => { %>
+            <div class="kutija">
+              <div class="product">
+                <span><%= c.name %></span>
+              </div>
+              <div class="quantity">
+                <form
+                  id="removeForm-<%= c.id %>"
+                  action="/cart/remove/<%= c.id %>"
+                  method="post"
+                >
+                  <input type="hidden" name="name" value="<%= c.name %>" />
+                  <input type="hidden" name="quantity" value="1" />
+
+                  <a
+                    class="add-cart"
+                    href="#"
+                    onclick="document.getElementById('removeForm-<%= c.id %>').submit(); return false;"
+                  >
+                    <span>
+                      <img
+                        class="decrease"
+                        src="/images/minus.png"
+                        alt="minus"
+                      />
+                    </span>
+                  </a>
+                </form>
+
+                <span class="item-quantity"><%= c.quantity %></span>
+
+                <form
+                  id="addForm-<%= c.id %>"
+                  action="/cart/add/<%= c.id %>"
+                  method="post"
+                >
+                  <input type="hidden" name="name" value="<%= c.name %>" />
+                  <input type="hidden" name="quantity" value="1" />
+
+                  <a
+                    class="add-cart"
+                    href="#"
+                    onclick="document.getElementById('addForm-<%= c.id %>').submit(); return false;"
+                  >
+                    <span>
+                      <img class="increase" src="/images/plus.png" alt="plus" />
+                    </span>
+                  </a>
+                </form>
+              </div>
+            </div>
+            <% }); %> <% } %>
+          </div>
+        </div>
+      </main>
+      <%- include(`partials/footer`); %>
+    </div>
+  </body>
+</html>
