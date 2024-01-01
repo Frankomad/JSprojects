@@ -1,0 +1,734 @@
+[
+  {
+    "id": "dsvvds",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "svrrv",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "sgfrvrs",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "ervvr",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "erverf",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrefeg",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "erbbre",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sdvr",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "brfvw",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "alde",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "adlad",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "revrv",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "fewbvv",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sgfrvrs",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "ervvr",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "erverf",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrefeg",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "erbbre",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sdvr",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "brfvw",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "alde",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "adlad",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "revrv",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sgfrvrs",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "ervvr",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "erverf",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrefeg",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "erbbre",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sdvr",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "brfvw",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "alde",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "adlad",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "revrv",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sgfrvrs",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "ervvr",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "erverf",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrefeg",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "erbbre",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sdvr",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "brfvw",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "alde",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "adlad",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "revrv",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sgfrvrs",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "ervvr",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "erverf",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrefeg",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "erbbre",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sdvr",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "brfvw",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "alde",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "adlad",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "revrv",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sgfrvrs",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "ervvr",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "erverf",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrefeg",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "erbbre",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sdvr",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "brfvw",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "alde",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "adlad",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "revrv",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "vrevc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "grcs",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "false"
+  },
+  {
+    "id": "btadsc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "true"
+  },
+  {
+    "id": "wevtbc",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "cevds",
+    "typeOfAgent": "agriculturalAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sgfrvrs",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  },
+  {
+    "id": "ervvr",
+    "typeOfAgent": "traineeAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "erverf",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "vrefeg",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "erbbre",
+    "typeOfAgent": "clientAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "sdvr",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "true"
+  },
+  {
+    "id": "brfvw",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Marko",
+    "isBlocked": "false"
+  },
+  {
+    "id": "alde",
+    "typeOfAgent": "managerAgent",
+    "nameOfAgent": "Petar",
+    "isBlocked": "true"
+  },
+  {
+    "id": "adlad",
+    "typeOfAgent": "hitmanAgent",
+    "nameOfAgent": "Ana",
+    "isBlocked": "false"
+  }
+]

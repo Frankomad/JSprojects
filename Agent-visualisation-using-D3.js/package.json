@@ -1,0 +1,22 @@
+{
+  "name": "bubble_chart_v4",
+  "version": "1.0.0",
+  "description": "bubble",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlandham/bubble_chart_v4.git"
+  },
+  "author": "F",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlandham/bubble_chart_v4/issues"
+  },
+  "homepage": "https://github.com/vlandham/bubble_chart_v4#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
