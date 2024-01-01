@@ -1,2 +1,2 @@
 # JSprojects
-A collection of small javascript projects
+A collection of small projects
