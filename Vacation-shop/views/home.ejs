@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling with us, easy.</title>
+    <link rel="icon" type="image/x-icon" href="/public/images/airplane.ico.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/styles/index.css">
+</head>
+
+<body>
+    <%- include(`partials/header1`); %>   
+    <div id="center">
+        <div id="left_div">
+            <h2>Discover:</h2>
+            <% catg.forEach(c => {  %>
+            <form method="GET" action="/home/getProducts/<%= c.id %>">
+                <button type="submit" class="catg"><%= c.Cname %></button>
+            </form>
+            <% }) %>
+        </div>
+        <div id="right_div">
+            <div id="cover">
+                <img src="/images/cover3.jpg" alt="cover" id="cover1">
+            </div>
+            <div id="products">
+                <% if(state == 0) { %>
+                <h1>With us - traveling is easier!</h1>
+                <h3>Choose destination and explore your options!</h3>
+                <% } else { %>
+                <% products.forEach(p => { %>
+                <div id="product">
+                    <div id="static">
+                        <img src="<%= p.image %>"" alt="">
+                        <p id="product_name"><%= p.name %></p>
+                    </div>
+                    <form method="post" action="/home/getProducts/<%= Cid %>/<%= p.id %>">
+                        <button type="submit" class="add_prod"><i class="bi bi-bag-plus"></i></button>
+                    </form>
+                </div>
+                <% })} %>
+            </div>
+        </div>
+    </div>
+    <%- include(`partials/footer`); %>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling with us, easy.</title>
+    <link rel="icon" type="image/x-icon" href="/public/images/airplane.ico.jpg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/styles/cart.css">
+</head>
+
+<body>
+    <%- include(`partials/header2`); %>   
+    <div id="center">
+        <div id="cover">
+            <img src="/images/cover4.jpg" alt="cover" id="cover1">
+        </div>
+        <div id="cart_empty">
+            Your Cart
+        </div>
+        <div id="cart_prod">
+            <% if(cart.length == 0){ %>
+                <div id="emptyT">
+                    <h2>Cart is empty</h2>
+                    <a href="/home/getCategories"><button id="go_back">Go back to Homepage</button></a>
+                </div>
+            <%} else { %> 
+            <div id="left_cart">
+              <div id="name_products">
+                    Products:
+              </div>
+              <div id="cart_names">
+                    <% cart.forEach(pr => { %>
+                        <% if (pr.col != 0){ %>
+                        <div id="prod">
+                            <h3 id="name_p"> <%= pr.name %> </h3>
+                        </div>
+                        <% } %>
+                    <% }) %>
+              </div>
+            </div>
+            <div id="right_cart">
+                <div id="cart_quantity">
+                    Quantity:
+                </div>
+                <div id="cart_col">
+                    <% cart.forEach(pr => { %>
+                        <% if (pr.col != 0){ %>
+                        <div id="buttons">
+                            <form method="POST" action="/cart/remove/<%= pr.id %>">
+                                <button type="submit"><i class="bi bi-dash-circle"></i></button>
+                            </form>
+                            <div id="<%= pr.id %>" class="quan"><%= pr.col %> </div>
+                            <form method="POST" action="/cart/add/<%= pr.id %>">
+                                <button type="submit"><i class="bi bi-plus-circle"></i></button>
+                            </form>
+                        </div>
+                        <% } %>
+                    <% }) %>
+                </div>
+            </div>
+            <% } %>
+        </div>
+    </div>
+    <%- include(`partials/footer`); %>
+</body>
+</html>
